@@ -1,3 +1,7 @@
+@font-face {
+    font-family: kusanagi;
+    src: url(fonts/Kusanagi.otf);
+}
 body{
     background-color:black;
 }
