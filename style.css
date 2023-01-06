@@ -1,14 +1,21 @@
 body{
-    background-color:#0A2647;
+    background-color:black;
+}
+h1{
+    color: #14213D;
+}
+p{
+    padding-left: 20px;
 }
 .banner{
     background-image: url(img/cool-background.png);
-    height: 30vh;
+    height: 65vh;
     position: relative;
 }
 
 .img-perfil{
     border-radius: 70px;
+    margin: 10px;
 }
 
 .card{
@@ -16,14 +23,18 @@ body{
     width: 20vw;
     height: 35vh;
     opacity: 50%;
+    cursor: pointer;
 }
 .card:hover{
     opacity: 100%;
     transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 .contenedor{
     margin: 7px;
     padding: 10px;
-    background-color: #205295;
+    background-color: #E5E5E5;
     border-radius: 20px;
+    border-radius: 20px;
+    border-color: #FCA311;
 }
