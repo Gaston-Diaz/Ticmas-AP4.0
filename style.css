@@ -12,22 +12,17 @@ h1{
 p{
     padding-left: 20px;
 }
-/*
+
 .banner{
+    height: 65vh;
     background-image: url(img/cool-background.png);
-    height: 65vh;
-    position: relative;
-}*/
-.banner{
-    height: 65vh;
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     filter: blur(0.5px);
 
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -38,9 +33,8 @@ p{
 
 .card{
     margin: 10px;
-    width: 20vw;
-    height: 35vh;
     opacity: 50%;
+    border-radius: 15px;
     cursor: pointer;
 }
 .card:hover{
@@ -60,7 +54,8 @@ p{
 
 .progress{
     opacity: 100%;
-    width: 50vw;
+    width: 70vw;
+    height: 25px;
 }
 /*despues lo saco*/
 .bg-6{
@@ -68,6 +63,8 @@ p{
 }
 
 .glitch {
+    text-align: center;
+    align-items: center;
     color: white;
     font-size: 100px;
     position: relative;
@@ -77,6 +74,8 @@ p{
  }
 
 .glitch:after {
+  text-align: center;
+  align-items: center;
     content: attr(data-text);
     position: absolute;
     left: 16px;
@@ -90,6 +89,8 @@ p{
 }
 
 .glitch:before {
+  text-align: center;
+  align-items: center;
     content: attr(data-text);
     position: absolute;
     left: 8px;
